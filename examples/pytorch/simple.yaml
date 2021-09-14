@@ -2,7 +2,7 @@ apiVersion: "kubeflow.org/v1"
 kind: PyTorchJob
 metadata:
   name: pytorch-simple
-  namespace: kubeflow
+  namespace: kubeflow-dmitryf
 spec:
   pytorchReplicaSpecs:
     Master:
